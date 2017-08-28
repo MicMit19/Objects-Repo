@@ -5,3 +5,18 @@ var pres = {
 };
 
 window.alert(pres.fName);
+
+/* August 28. Replacing values in an Object Literal */
+
+var x = prompt("Enter firstName, lastName, age, or grade")
+/* I am taking a users prompt */
+
+var students = {
+firstName:"Michael",
+lastName:"Mitamura",
+age:"16",
+grade:"11",
+}
+
+window.alert(students[x]);
+/* Creating a window alert that shows what the user asked for. But if the user did not enter an explicit command, this will not work. */
